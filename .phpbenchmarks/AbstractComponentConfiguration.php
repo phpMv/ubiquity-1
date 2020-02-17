@@ -1,11 +1,10 @@
 <?php
-
-declare(strict_types=1);
-
+declare(strict_types = 1);
 namespace AbstractComponentConfiguration;
 
 abstract class AbstractComponentConfiguration
 {
+
     public static function getComponentType(): int
     {
         return 2;
@@ -63,12 +62,12 @@ abstract class AbstractComponentConfiguration
 
     public static function getCoreDependencyMinorVersion(): int
     {
-        return 1;
+        return 3;
     }
 
     public static function getCoreDependencyPatchVersion(): int
     {
-        return 2;
+        return 3;
     }
 
     public static function getBenchmarkType(): int
@@ -79,8 +78,8 @@ abstract class AbstractComponentConfiguration
     public static function getSourceCodeUrls(): array
     {
         return [
-            'route' => 'https://github.com/phpbenchmarks/ubiquity-common/blob/2.1.0/controllers/HelloWorldController.php#L9',
-            'controller' => 'https://github.com/phpbenchmarks/ubiquity-common/blob/2.1.0/controllers/HelloWorldController.php'
+            'route' => 'https://github.com/phpbenchmarks/ubiquity-common/blob/2.3.3/controllers/HelloWorldController.php#L9',
+            'controller' => 'https://github.com/phpbenchmarks/ubiquity-common/blob/2.3.3/controllers/HelloWorldController.php'
         ];
     }
 }
