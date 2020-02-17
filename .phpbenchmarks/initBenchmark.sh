@@ -5,9 +5,9 @@ set -e
 rm -rf app/cache/*
 chmod -R 777 app/cache
 
-composer install --no-dev --classmap-authoritative --ansi
-
 php app/bin/addRoutes
+
+composer install --no-dev --optimize-autoloader --classmap-authoritative --ansi
 
 if [ -L "app/translations" ]; then
     rm "app/translations"
