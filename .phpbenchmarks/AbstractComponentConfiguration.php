@@ -78,8 +78,8 @@ abstract class AbstractComponentConfiguration
     public static function getSourceCodeUrls(): array
     {
         return [
-            'route' => 'https://github.com/phpbenchmarks/ubiquity-common/blob/2.3.3/controllers/HelloWorldController.php#L9',
-            'controller' => 'https://github.com/phpbenchmarks/ubiquity-common/blob/2.3.3/controllers/HelloWorldController.php'
+            'route' => 'https://github.com/phpbenchmarks/ubiquity-common/blob/2.3.2/controllers/HelloWorldController.php#L9',
+            'controller' => 'https://github.com/phpbenchmarks/ubiquity-common/blob/2.3.2/controllers/HelloWorldController.php'
         ];
     }
 }
